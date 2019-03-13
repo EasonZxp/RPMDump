@@ -1,0 +1,14 @@
+
+ ~~Sleep Stats Dump~~
+
+	XO Shutdown:
+		sleep_count:            0
+		last_entered_at:        0x0
+		last_exited_at:         0x0
+		accumulated_duration:   0x0
+
+	VDD Min:
+		sleep_count:            3
+		last_entered_at:        0x10ac4ecf9L
+		last_exited_at:         0xcbd65db8L
+		accumulated_duration:   0x4d835b15

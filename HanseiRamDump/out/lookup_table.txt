@@ -1,0 +1,135 @@
+
+*** lookup hash table ok; all resources accessible ***
+
+
+[0] ok -> direct-mapped to 0
+[1] ok -> first level 1 -> second level 1
+[2] ok -> first level 4 -> second level 2
+[3] ok -> first level 2 -> second level 3
+[4] ok -> direct-mapped to 4
+[5] ok -> direct-mapped to 5
+[6] ok -> direct-mapped to 6
+[7] ok -> direct-mapped to 7
+[8] ok -> first level 1 -> second level 8
+[9] ok -> first level 1 -> second level 9
+[10] ok -> first level 1 -> second level 10
+[11] ok -> direct-mapped to 11
+[12] ok -> direct-mapped to 12
+[13] ok -> first level 1 -> second level 13
+[14] ok -> direct-mapped to 14
+[15] ok -> first level 8 -> second level 15
+[16] ok -> first level 2 -> second level 16
+[17] ok -> direct-mapped to 17
+[18] ok -> first level 8 -> second level 18
+[19] ok -> first level 1 -> second level 19
+[20] ok -> first level 6 -> second level 20
+[21] ok -> <unused>
+[22] ok -> first level 1 -> second level 22
+[23] ok -> direct-mapped to 23
+[24] ok -> direct-mapped to 24
+[25] ok -> first level 3 -> second level 25
+[26] ok -> first level 2 -> second level 26
+[27] ok -> first level 3 -> second level 27
+[28] ok -> first level 3 -> second level 28
+[29] ok -> first level 1 -> second level 29
+[30] ok -> first level 1 -> second level 30
+[31] ok -> first level 7 -> second level 31
+[32] ok -> direct-mapped to 32
+[33] ok -> direct-mapped to 33
+[34] ok -> first level 1 -> second level 34
+[35] ok -> first level 1 -> second level 35
+[36] ok -> direct-mapped to 36
+[37] ok -> first level 4 -> second level 37
+[38] ok -> first level 2 -> second level 38
+[39] ok -> direct-mapped to 39
+[40] ok -> first level 3 -> second level 40
+[41] ok -> direct-mapped to 41
+[42] ok -> direct-mapped to 42
+[43] ok -> direct-mapped to 43
+[44] ok -> first level 2 -> second level 44
+[45] ok -> direct-mapped to 45
+[46] ok -> first level 1 -> second level 46
+[47] ok -> direct-mapped to 47
+[48] ok -> direct-mapped to 48
+[49] ok -> direct-mapped to 49
+[50] ok -> first level 1 -> second level 50
+[51] ok -> first level 1 -> second level 51
+[52] ok -> first level 1 -> second level 52
+[53] ok -> first level 7 -> second level 53
+[54] ok -> direct-mapped to 54
+[55] ok -> first level 1 -> second level 55
+[56] ok -> first level 1 -> second level 56
+[57] ok -> direct-mapped to 57
+[58] ok -> direct-mapped to 58
+[59] ok -> direct-mapped to 59
+[60] ok -> first level 1 -> second level 60
+[61] ok -> direct-mapped to 61
+[62] ok -> first level 2 -> second level 62
+[63] ok -> first level 2 -> second level 63
+[64] ok -> direct-mapped to 64
+[65] ok -> first level 1 -> second level 65
+[66] ok -> direct-mapped to 66
+[67] ok -> first level 1 -> second level 67
+[68] ok -> first level 2 -> second level 68
+[69] ok -> direct-mapped to 69
+[70] ok -> first level 1 -> second level 70
+[71] ok -> first level 6 -> second level 71
+[72] ok -> direct-mapped to 72
+[73] ok -> first level 1 -> second level 73
+[74] ok -> first level 1 -> second level 74
+[75] ok -> direct-mapped to 75
+[76] ok -> direct-mapped to 76
+[77] ok -> first level 1 -> second level 77
+[78] ok -> direct-mapped to 78
+[79] ok -> first level 1 -> second level 79
+[80] ok -> first level 1 -> second level 80
+[81] ok -> direct-mapped to 81
+[82] ok -> direct-mapped to 82
+[83] ok -> first level 4 -> second level 83
+[84] ok -> first level 1 -> second level 84
+[85] ok -> first level 1 -> second level 85
+[86] ok -> direct-mapped to 86
+[87] ok -> direct-mapped to 87
+[88] ok -> first level 1 -> second level 88
+[89] ok -> first level 4 -> second level 89
+[90] ok -> direct-mapped to 90
+[91] ok -> <unused>
+[92] ok -> first level 1 -> second level 92
+[93] ok -> first level 2 -> second level 93
+[94] ok -> <unused>
+[95] ok -> first level 6 -> second level 95
+[96] ok -> first level 2 -> second level 96
+[97] ok -> first level 3 -> second level 97
+[98] ok -> <unused>
+[99] ok -> first level 6 -> second level 99
+[100] ok -> <unused>
+[101] ok -> first level 2 -> second level 101
+[102] ok -> <unused>
+[103] ok -> <unused>
+[104] ok -> <unused>
+[105] ok -> <unused>
+[106] ok -> first level 1 -> second level 106
+[107] ok -> <unused>
+[108] ok -> <unused>
+[109] ok -> <unused>
+[110] ok -> first level 1 -> second level 110
+[111] ok -> <unused>
+[112] ok -> <unused>
+[113] ok -> first level 2 -> second level 113
+[114] ok -> first level 1 -> second level 114
+[115] ok -> first level 3 -> second level 115
+[116] ok -> first level 2 -> second level 116
+[117] ok -> first level 2 -> second level 117
+[118] ok -> first level 1 -> second level 118
+[119] ok -> <unused>
+[120] ok -> first level 1 -> second level 120
+[121] ok -> first level 2 -> second level 121
+[122] ok -> <unused>
+[123] ok -> first level 1 -> second level 123
+[124] ok -> first level 2 -> second level 124
+[125] ok -> <unused>
+[126] ok -> first level 1 -> second level 126
+[127] ok -> <unused>
+[128] ok -> first level 2 -> second level 128
+[129] ok -> first level 2 -> second level 129
+[130] ok -> first level 1 -> second level 130

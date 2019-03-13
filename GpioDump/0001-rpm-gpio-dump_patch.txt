@@ -1,0 +1,88 @@
+diff --git a/RPM.BF.2.4/rpm_proc/core/api/debugtrace/tracer_event_ids.h b/RPM.BF.2.4/rpm_proc/core/api/debugtrace/tracer_event_ids.h
+index 4b107edd85a..aae51759a62 100755
+--- a/RPM.BF.2.4/rpm_proc/core/api/debugtrace/tracer_event_ids.h
++++ b/RPM.BF.2.4/rpm_proc/core/api/debugtrace/tracer_event_ids.h
+@@ -164,6 +164,7 @@ typedef enum {
+ 	VSENSE_EVENT_RAIL_NOT_CALIBRATED,
+ 	VSENSE_EVENT_LAST=639,
+ 	TRACER_EVENT_ID_MAX,
++	SLEEP_GPIO_DUMP=0x3FF,
+ 	TRACER_EVENT_RESERVE_LAST=0x400,
+ 	TRACER_EVENT_ALL=0x7FFFFFFF,
+ } tracer_event_id_t;
+diff --git a/RPM.BF.2.4/rpm_proc/core/bsp/build/scripts/swe_builder.py b/RPM.BF.2.4/rpm_proc/core/bsp/build/scripts/swe_builder.py
+index 906a2c04863..a00f2471d6a 100755
+--- a/RPM.BF.2.4/rpm_proc/core/bsp/build/scripts/swe_builder.py
++++ b/RPM.BF.2.4/rpm_proc/core/bsp/build/scripts/swe_builder.py
+@@ -99,6 +99,7 @@ def swe_builder(target, source, env):
+         tracer_event_ids_h.write(',\n')
+ 
+     tracer_event_ids_h.write('\tTRACER_EVENT_ID_MAX,\n')
++    tracer_event_ids_h.write('\tSLEEP_GPIO_DUMP=0x3FF,\n')
+     tracer_event_ids_h.write('\tTRACER_EVENT_RESERVE_LAST=0x400,\n')
+     tracer_event_ids_h.write('\tTRACER_EVENT_ALL=0x7FFFFFFF,\n')
+     tracer_event_ids_h.write('} tracer_event_id_t;\n\n')
+diff --git a/RPM.BF.2.4/rpm_proc/core/power/rpm/debug/scripts/rpm_parser.py b/RPM.BF.2.4/rpm_proc/core/power/rpm/debug/scripts/rpm_parser.py
+index 48eda8a78dc..20b4c611aeb 100755
+--- a/RPM.BF.2.4/rpm_proc/core/power/rpm/debug/scripts/rpm_parser.py
++++ b/RPM.BF.2.4/rpm_proc/core/power/rpm/debug/scripts/rpm_parser.py
+@@ -429,6 +429,12 @@ class SLEEP_MSG_x149:
+     def parse(self, data):
+         return 'mpm_actual_wakeup_time: (timetick: 0x%0.8x%0.8x)' % (data[1], data[0])
+ 
++class SLEEP_MSG_x3FF:
++    __metaclass__ = Parser
++    id = 0x3FF
++    def parse(self, data):
++        return 'SLEEP_GPIO_DUMP: 0x%0.8x 0x%0.8x' % (data[0], data[1])
++
+ class SLEEPCprSvslowProcess:
+     __metaclass__ = Parser
+     id = 0x14A
+diff --git a/RPM.BF.2.4/rpm_proc/core/power/sleep/src/lpr_definition_uber.c b/RPM.BF.2.4/rpm_proc/core/power/sleep/src/lpr_definition_uber.c
+index db65e42bb97..5540ed12881 100755
+--- a/RPM.BF.2.4/rpm_proc/core/power/sleep/src/lpr_definition_uber.c
++++ b/RPM.BF.2.4/rpm_proc/core/power/sleep/src/lpr_definition_uber.c
+@@ -507,7 +507,30 @@ void rpm_halt_exit(void)
+     rob_mark_duration (ROB_DURATION_RPM_HALT_EXIT);
+   }
+ }
++#if 1
++#define TLMM_BASE 0x61000000
++#define TLMM_CSR_REG_BASE (TLMM_BASE + 0x00010000)
++#define HWIO_TLMM_GPIO_CFGn_ADDR(n) (TLMM_CSR_REG_BASE + 0x00000000 + 0x1000 * (n))
++#define HWIO_TLMM_GPIO_IN_OUTn_ADDR(n) (TLMM_CSR_REG_BASE + 0x00000004 + 0x1000 * (n))
+ 
++void gpio_dump()
++{
++	int num,i;
++	volatile uint32 cfg, inout, val;
++
++	num = 141; //8953 gpio[0:149] please modify it for your platform.
++	for (i = 0; i <= num; i++)
++	{
++		if((118 < i) && (i < 128))
++			continue;
++		cfg = *(volatile uint32*)HWIO_TLMM_GPIO_CFGn_ADDR(i);
++		inout = *(volatile uint32*)HWIO_TLMM_GPIO_IN_OUTn_ADDR(i);
++		val = ((cfg << 16)&0xffff0000) | (inout&0xffff);
++		SWEVENT(SLEEP_GPIO_DUMP, i, val);
++	}
++
++}
++#endif
+ 
+ void deep_sleep_enter(bool mock_vdd_min)
+ {
+@@ -520,6 +543,8 @@ void deep_sleep_enter(bool mock_vdd_min)
+   rob_mark_event (ROB_EVENT_VDD_MIN_ENTER);
+  
+ 
++  gpio_dump(); //If you want to dump GPIO dump before real VDD Min enter, add dump function in there.
++
+   do
+   {
+     // Limit sleep time to 15 seconds -> 0x112A8800 = 15 sec in 19.2 MHz ticks
+-- 
+2.15.0
+

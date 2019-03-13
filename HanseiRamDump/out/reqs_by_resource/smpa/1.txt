@@ -1,0 +1,79 @@
+
+Status -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 15,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[1380, 0]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** MSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** WCSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+

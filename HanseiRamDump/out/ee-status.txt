@@ -1,0 +1,152 @@
+
+
+ *** APPS *** 0
+	status:           SPM_SLEEPING
+	num_active_cores: 0
+	pending_bringups: 0x00000000
+	Master Stats:
+		num_shutdowns:          782
+		shutdown_req:           0x10ac49710L
+		wakeup_ind:             0x10a9128ecL
+		bringup_req:            0x10a9129bcL
+		bringup_ack:            0x10a912a07L
+		wakeup_reason:          rude
+		last_sleep_transition_duration: 0x19bb
+		last_wake_transition_duration:  0x1d34
+	CHANGER:
+		Task::haveDeadline:     True
+		Task::deadline:         0x3b3b0e52dL
+		Task::start:            0x3b3b072c3L
+		Task::end:              0x10ac4ca3dL
+		Task::violatedDeadlines:0x42
+		currentSet:             RPM_SLEEP_SET
+		destinationSet:         RPM_ACTIVE_SET
+		HANDLER:
+			SMDL info:
+				port_id:                4
+				channel_type:           SMD_APPS_RPM
+				FIFO TX:
+					read_index:             48
+					write_index:            528
+				FIFO RX:
+					read_index:             768
+					write_index:            768
+
+
+ *** MSS *** 1
+	status:           SPM_SLEEPING
+	num_active_cores: 0
+	pending_bringups: 0x00000000
+	Master Stats:
+		num_shutdowns:          461
+		shutdown_req:           0x106f8c9c9L
+		wakeup_ind:             0x106cda5cfL
+		bringup_req:            0x106f6c01fL
+		bringup_ack:            0x106f6e2a9L
+		wakeup_reason:          rude
+		last_sleep_transition_duration: 0x1bbc
+		last_wake_transition_duration:  0x1c41
+	CHANGER:
+		Task::haveDeadline:     True
+		Task::deadline:         0xfffff14b7e4cf9L
+		Task::start:            0xfffff14b7dff2dL
+		Task::end:              0x106f8f1ebL
+		Task::violatedDeadlines:0x1
+		currentSet:             RPM_SLEEP_SET
+		destinationSet:         RPM_ACTIVE_SET
+		HANDLER:
+			SMDL info:
+				port_id:                5
+				channel_type:           SMD_MODEM_RPM
+				FIFO TX:
+					read_index:             64
+					write_index:            64
+				FIFO RX:
+					read_index:             876
+					write_index:            876
+
+
+ *** WCSS *** 2
+	status:           SPM_SLEEPING
+	num_active_cores: 0
+	pending_bringups: 0x00000000
+	Master Stats:
+		num_shutdowns:          31
+		shutdown_req:           0x104e3efc8L
+		wakeup_ind:             0x104e28a09L
+		bringup_req:            0x104e28bf0L
+		bringup_ack:            0x104e28c65L
+		wakeup_reason:          rude
+		last_sleep_transition_duration: 0x2efd
+		last_wake_transition_duration:  0x377b
+	CHANGER:
+		Task::haveDeadline:     True
+		Task::deadline:         0xffffffffffacb0L
+		Task::start:            0xfffffffffef8e1L
+		Task::end:              0x104e42ddaL
+		Task::violatedDeadlines:0x0
+		currentSet:             RPM_SLEEP_SET
+		destinationSet:         RPM_ACTIVE_SET
+		HANDLER:
+			SMDL info:
+				port_id:                6
+				channel_type:           SMD_RIVA_RPM
+				FIFO TX:
+					read_index:             40
+					write_index:            40
+				FIFO RX:
+					read_index:             884
+					write_index:            884
+
+
+ *** TZ *** 3
+	status:           SPM_AWAKE
+	num_active_cores: 0
+	pending_bringups: 0x00000000
+	Master Stats:
+		ERROR ee.stats is null
+	CHANGER:
+		ERROR READING [ee].changer
+		HANDLER:
+			SMDL info:
+				port_id:                7
+				channel_type:           SMD_RPM_TZ
+				FIFO TX:
+					read_index:             40
+					write_index:            40
+				FIFO RX:
+					read_index:             60
+					write_index:            60
+
+
+ *** LPASS *** 4
+	status:           SPM_SLEEPING
+	num_active_cores: 0
+	pending_bringups: 0x00000000
+	Master Stats:
+		num_shutdowns:          163
+		shutdown_req:           0x10a9f15caL
+		wakeup_ind:             0x10a913a50L
+		bringup_req:            0x10a9e666bL
+		bringup_ack:            0x10a9e85cbL
+		wakeup_reason:          rude
+		last_sleep_transition_duration: 0x1893
+		last_wake_transition_duration:  0x18c2
+	CHANGER:
+		Task::haveDeadline:     True
+		Task::deadline:         0x249e797c854L
+		Task::start:            0x249e7974c6fL
+		Task::end:              0x10a9f3a9dL
+		Task::violatedDeadlines:0x1
+		currentSet:             RPM_SLEEP_SET
+		destinationSet:         RPM_ACTIVE_SET
+		HANDLER:
+			SMDL info:
+				port_id:                8
+				channel_type:           SMD_QDSP_RPM
+				FIFO TX:
+					read_index:             352
+					write_index:            352
+				FIFO RX:
+					read_index:             452
+					write_index:            452

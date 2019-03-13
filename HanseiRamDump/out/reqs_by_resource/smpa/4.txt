@@ -1,0 +1,236 @@
+
+Status -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 2040000,
+		ip : 1,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[1158, 1210]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 1900000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** MSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** WCSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+
+-=| Internal Requests (from RPM software) |=-
+
+
+	Client #0 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 1026,
+		uvol : 1950000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 112500,
+	}
+	Client #1 -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1026,
+		uvol : 2050000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 112500,
+	}
+	Client #2 -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 1,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 1027,
+		uvol : 2050000,
+		ip : 1,
+		freq : 18,
+		freq_reason : 1,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 112500,
+	}
+	Client #3 -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1027,
+		uvol : 2050000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 112500,
+	}
+	Client #4 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+	Client #5 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1033,
+		uvol : 1262000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 75000,
+	}
+	Client #6 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+	Client #7 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}

@@ -1,0 +1,188 @@
+
+	cpu_kHz : [400000, 228570]
+
+*** ipa 0 ***
+
+*** clk0 0 ***
+
+*** clk0 1 ***
+	estimates: [7867, 257]
+
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		request : 1,
+		max_limit : 0,
+	} 
+
+	spare request [NO_REQUEST] -> n/a 
+
+
+*** clk0 2 ***
+
+*** clk1 0 ***
+
+*** clk1 1 ***
+
+*** clk1 2 ***
+
+*** clk2 0 ***
+
+*** clk2 1 ***
+
+*** clka 1 ***
+
+*** clka 2 ***
+
+*** clka 4 ***
+
+*** clka 5 ***
+
+*** clka 8 ***
+
+*** clka 12 ***
+
+*** ldoa 1 ***
+
+*** ldoa 2 ***
+
+*** ldoa 3 ***
+
+*** ldoa 4 ***
+
+*** ldoa 5 ***
+
+*** ldoa 6 ***
+
+*** ldoa 7 ***
+
+*** ldoa 8 ***
+
+*** ldoa 9 ***
+
+*** ldoa 10 ***
+
+*** ldoa 11 ***
+
+*** ldoa 12 ***
+
+*** ldoa 13 ***
+
+*** ldoa 14 ***
+
+*** ldoa 17 ***
+
+*** ldoa 18 ***
+
+*** ldoa 19 ***
+
+*** ldoa 22 ***
+
+*** ldoa 23 ***
+
+*** smpa 1 ***
+
+*** smpa 2 ***
+
+*** smpa 3 ***
+
+*** smpa 4 ***
+
+*** smpa 7 ***
+
+*** bspc 1 ***
+
+*** bmas 21 ***
+
+*** bmas 29 ***
+
+*** bmas 33 ***
+
+*** bmas 35 ***
+
+*** bmas 39 ***
+
+*** bmas 41 ***
+
+*** bmas 76 ***
+
+*** bmas 77 ***
+
+*** bmas 86 ***
+
+*** bmas 88 ***
+
+*** bmas 89 ***
+
+*** bmas 90 ***
+
+*** bmas 91 ***
+
+*** bmas 92 ***
+
+*** bmas 94 ***
+
+*** bmas 95 ***
+
+*** bmas 100 ***
+
+*** bmas 124 ***
+
+*** blat 1 ***
+
+*** blat 25 ***
+
+*** bslv 0 ***
+
+*** bslv 2 ***
+
+*** bslv 26 ***
+
+*** bslv 28 ***
+
+*** bslv 30 ***
+
+*** bslv 31 ***
+
+*** bslv 33 ***
+
+*** bslv 37 ***
+
+*** bslv 39 ***
+
+*** bslv 41 ***
+
+*** bslv 44 ***
+
+*** bslv 45 ***
+
+*** bslv 50 ***
+
+*** bslv 51 ***
+
+*** bslv 55 ***
+
+*** bslv 59 ***
+
+*** bslv 70 ***
+
+*** bslv 104 ***
+
+*** bslv 115 ***
+
+*** bslv 117 ***
+
+*** bslv 118 ***
+
+*** bslv 119 ***
+
+*** bslv 120 ***
+
+*** bslv 121 ***
+
+*** bslv 123 ***
+
+*** bslv 124 ***
+
+*** bslv 131 ***
+
+*** bslv 184 ***

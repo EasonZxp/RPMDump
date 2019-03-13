@@ -1,0 +1,434 @@
+
+	cpu_kHz : [400000, 228570]
+
+*** ipa 0 ***
+
+*** clk0 0 ***
+	estimates: [1334, 1541]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 1,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 1,
+		max_limit : 1,
+	} 
+
+
+*** clk0 1 ***
+	estimates: [7867, 257]
+
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	} 
+
+	spare request [NO_REQUEST] -> n/a 
+
+
+*** clk0 2 ***
+
+*** clk1 0 ***
+	estimates: [8067, 942]
+
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	} 
+
+	spare request [NO_REQUEST] -> n/a 
+
+
+*** clk1 1 ***
+	estimates: [6094, 1179]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 83887,
+		max_limit : 4294967295,
+	} 
+
+
+*** clk1 2 ***
+	estimates: [1251, 970]
+
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	} 
+
+	spare request [NO_REQUEST] -> n/a 
+
+
+*** clk2 0 ***
+	estimates: [9881, 13376]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 83887,
+		max_limit : 4294967295,
+	} 
+
+
+*** clk2 1 ***
+
+*** clka 1 ***
+
+*** clka 2 ***
+
+*** clka 4 ***
+
+*** clka 5 ***
+	estimates: [1409, 832]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_enable : 0,
+		pc_enable : 0,
+		reserved : 0,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_enable : 1,
+		pc_enable : 0,
+		reserved : 0,
+	} 
+
+
+*** clka 8 ***
+
+*** clka 12 ***
+
+*** ldoa 1 ***
+
+*** ldoa 2 ***
+
+*** ldoa 3 ***
+
+*** ldoa 4 ***
+
+*** ldoa 5 ***
+
+*** ldoa 6 ***
+
+*** ldoa 7 ***
+	estimates: [3783, 2504]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 7,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 0,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 0,
+		noise_hr : 0,
+		output_uvol : 0,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 7,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 1800000,
+		ip : 2,
+		noise_hr : 50,
+		output_uvol : 1800000,
+	} 
+
+
+*** ldoa 8 ***
+
+*** ldoa 9 ***
+	estimates: [1981, 1269]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 9,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 0,
+		noise_hr : 0,
+		output_uvol : 0,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 9,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 3300000,
+		ip : 400,
+		noise_hr : 50,
+		output_uvol : 3300000,
+	} 
+
+
+*** ldoa 10 ***
+
+*** ldoa 11 ***
+
+*** ldoa 12 ***
+
+*** ldoa 13 ***
+
+*** ldoa 14 ***
+
+*** ldoa 17 ***
+
+*** ldoa 18 ***
+
+*** ldoa 19 ***
+	estimates: [5081, 2788]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 19,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 0,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 0,
+		noise_hr : 0,
+		output_uvol : 0,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 19,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 1350000,
+		ip : 300,
+		noise_hr : 50,
+		output_uvol : 1350000,
+	} 
+
+
+*** ldoa 22 ***
+
+*** ldoa 23 ***
+
+*** smpa 1 ***
+
+*** smpa 2 ***
+	estimates: [8131, 1926]
+
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	} 
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 1,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 1,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	} 
+
+
+*** smpa 3 ***
+
+*** smpa 4 ***
+
+*** smpa 7 ***
+
+*** bspc 1 ***
+
+*** bmas 21 ***
+
+*** bmas 29 ***
+
+*** bmas 33 ***
+
+*** bmas 35 ***
+
+*** bmas 39 ***
+
+*** bmas 41 ***
+
+*** bmas 76 ***
+	estimates: [1729, 1085]
+
+	selected request [SLEEP_REQUEST] -> 0 
+
+	spare request [ACTIVE_REQUEST] -> 259321152 
+
+
+*** bmas 77 ***
+
+*** bmas 86 ***
+
+*** bmas 88 ***
+
+*** bmas 89 ***
+
+*** bmas 90 ***
+
+*** bmas 91 ***
+
+*** bmas 92 ***
+
+*** bmas 94 ***
+
+*** bmas 95 ***
+
+*** bmas 100 ***
+
+*** bmas 124 ***
+
+*** blat 1 ***
+
+*** blat 25 ***
+
+*** bslv 0 ***
+	estimates: [7657, 12079]
+
+	selected request [SLEEP_REQUEST] -> 0 
+
+	spare request [ACTIVE_REQUEST] -> 259321152 
+
+
+*** bslv 2 ***
+
+*** bslv 26 ***
+
+*** bslv 28 ***
+
+*** bslv 30 ***
+
+*** bslv 31 ***
+
+*** bslv 33 ***
+
+*** bslv 37 ***
+
+*** bslv 39 ***
+
+*** bslv 41 ***
+
+*** bslv 44 ***
+
+*** bslv 45 ***
+
+*** bslv 50 ***
+
+*** bslv 51 ***
+
+*** bslv 55 ***
+
+*** bslv 59 ***
+
+*** bslv 70 ***
+
+*** bslv 104 ***
+	estimates: [1249, 1258]
+
+	selected request [SLEEP_REQUEST] -> 0 
+
+	spare request [ACTIVE_REQUEST] -> 259321152 
+
+
+*** bslv 115 ***
+
+*** bslv 117 ***
+
+*** bslv 118 ***
+
+*** bslv 119 ***
+
+*** bslv 120 ***
+
+*** bslv 121 ***
+
+*** bslv 123 ***
+
+*** bslv 124 ***
+
+*** bslv 131 ***
+
+*** bslv 184 ***

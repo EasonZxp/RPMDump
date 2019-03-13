@@ -1,0 +1,31 @@
+
+Status -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 15,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 870000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[0, 0]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-

@@ -1,0 +1,103 @@
+
+Status -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 1,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 6,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 2050000,
+		ip : 1,
+		noise_hr : 50,
+		output_uvol : 1800000,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[2546, 1549]
+
+settling estimate ->
+	6243
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 6,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 0,
+		reserve1 : 0,
+		input_uvol : 1800000,
+		ip : 0,
+		noise_hr : 0,
+		output_uvol : 1800000,
+	}
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** MSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** WCSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 6,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 1800000,
+		ip : 1,
+		noise_hr : 50,
+		output_uvol : 1800000,
+	}
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 1,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 6,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 1800000,
+		ip : 1,
+		noise_hr : 50,
+		output_uvol : 1800000,
+	}
+

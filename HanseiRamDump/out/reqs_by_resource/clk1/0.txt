@@ -1,0 +1,75 @@
+
+Status -> 
+	{
+		request : 50000,
+		max_limit : 0,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[8067, 942]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 0,
+	}
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 19200,
+		max_limit : 0,
+	}
+
+
+*** MSS ***
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 0,
+	}
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	}
+
+
+*** WCSS ***
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	}
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [SLEEP_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 0,
+	}
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		request : 0,
+		max_limit : 4294967295,
+	}
+

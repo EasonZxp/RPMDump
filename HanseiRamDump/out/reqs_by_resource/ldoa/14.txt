@@ -1,0 +1,88 @@
+
+Status -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 14,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 1800000,
+		ip : 1,
+		noise_hr : 0,
+		output_uvol : 1750000,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[1889, 102]
+
+settling estimate ->
+	6243
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** MSS ***
+	selected request [SLEEP_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 14,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 1,
+		noise_hr : 0,
+		output_uvol : 0,
+	}
+
+	spare request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 14,
+		device_index : 0,
+		is_en_transition : 0,
+		byp_allowed : 1,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 1,
+		noise_hr : 0,
+		output_uvol : 0,
+	}
+
+
+*** WCSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+

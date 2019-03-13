@@ -1,0 +1,179 @@
+
+Status -> 
+	{
+		sw_en : 1,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 1225000,
+		ip : 0,
+		freq : 11,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[1129, 1151]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [ACTIVE_REQUEST] -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 0,
+		uvol : 1225000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** MSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** WCSS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+
+-=| Internal Requests (from RPM software) |=-
+
+
+	Client #0 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1024,
+		uvol : 1037000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 8,
+		reserve1 : 60937,
+	}
+	Client #1 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 1,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 1025,
+		uvol : 1037000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 8,
+		reserve1 : 60937,
+	}
+	Client #2 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1025,
+		uvol : 987000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 8,
+		reserve1 : 57812,
+	}
+	Client #3 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 1,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 1,
+		hr : 1035,
+		uvol : 1037000,
+		ip : 0,
+		freq : 0,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 8,
+		reserve1 : 60937,
+	}
+	Client #4 -> 
+	{
+		sw_en : 0,
+		smps_sw_mode : 0,
+		pc_en : 0,
+		pc_mode : 0,
+		global_byp_en : 0,
+		hr : 0,
+		uvol : 0,
+		ip : 0,
+		freq : 1,
+		freq_reason : 0,
+		quiet_mode : 0,
+		byp_allowed : 0,
+		corner_mode : 0,
+		corner_volt : 0,
+		corner_volt_floor : 0,
+		reserve1 : 0,
+	}

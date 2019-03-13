@@ -1,0 +1,166 @@
+
+*** rpm_estimate_cache_immediate (Active -> Sleep) ***
+
+	systemTag = 0xf3b52b8e, actionTag = 0xf37866db, resultState = 0xa71397a1, estimate = 9292, usedSeq = 2935
+
+	systemTag = 0xc89c0076, actionTag = 0xf9d04262, resultState = 0x325d6634, estimate = 5120, usedSeq = 2924
+
+	systemTag = 0x3a03d562, actionTag = 0x17a4b95e, resultState = 0xafbe620f, estimate = 3839, usedSeq = 2915
+
+	systemTag = 0xaf4d24f7, actionTag = 0x17a4b95e, resultState = 0xafbe620f, estimate = 5118, usedSeq = 2916
+
+	systemTag = 0x11e0e9a7, actionTag = 0x786b90cf, resultState = 0xdc049f99, estimate = 6395, usedSeq = 2920
+
+	systemTag = 0x0d79d0e3, actionTag = 0x34ac910b, resultState = 0x1fd1dea9, estimate = 6402, usedSeq = 2936
+
+	systemTag = 0xa6b5c4d8, actionTag = 0x786b90cf, resultState = 0x0d79d0e3, estimate = 3694, usedSeq = 2938
+
+	systemTag = 0x65b8ddc5, actionTag = 0x56a12cdc, resultState = 0x2b6c58b9, estimate = 5718, usedSeq = 2918
+
+	systemTag = 0x0d79d0e3, actionTag = 0x9f6e4fe6, resultState = 0x1fd1dea9, estimate = 6403, usedSeq = 2937
+
+	systemTag = 0x888d91e2, actionTag = 0x786b90cf, resultState = 0xf3b52b8e, estimate = 6291, usedSeq = 2943
+
+	systemTag = 0x35ef386e, actionTag = 0x36f43160, resultState = 0x27473624, estimate = 9829, usedSeq = 2914
+
+	systemTag = 0x6765e286, actionTag = 0x9963edbc, resultState = 0x3360d5a7, estimate = 6445, usedSeq = 2921
+
+	systemTag = 0xf0f62c50, actionTag = 0x56a12cdc, resultState = 0x2b6c58b9, estimate = 4289, usedSeq = 2917
+
+	systemTag = 0x5dd2f1e3, actionTag = 0xf9d04262, resultState = 0x325d6634, estimate = 3840, usedSeq = 2923
+
+	systemTag = 0x6845650c, actionTag = 0x5e46b634, resultState = 0xc2dde931, estimate = 6587, usedSeq = 2944
+
+	systemTag = 0xf22b1313, actionTag = 0x9963edbc, resultState = 0x3360d5a7, estimate = 8593, usedSeq = 2922
+
+
+*** rpm_estimate_cache (Sleep -> Active) ***
+
+	systemTag = 0x3673dfb8, actionTag = 0x786b90cf, resultState = 0x95cfc0fb, estimate = 9006, usedSeq = 4566
+
+	systemTag = 0x95b6d82b, actionTag = 0x0f3d2366, resultState = 0x75083689, estimate = 11794, usedSeq = 4574
+
+	systemTag = 0x787ca487, actionTag = 0x0f3d2366, resultState = 0xbd73cd72, estimate = 13548, usedSeq = 4549
+
+	systemTag = 0x8626a40e, actionTag = 0x0f3d2366, resultState = 0x5dd58ae1, estimate = 14203, usedSeq = 4577
+
+	systemTag = 0x040211a9, actionTag = 0x0f3d2366, resultState = 0xa33d2e2d, estimate = 18668, usedSeq = 4564
+
+	systemTag = 0xed325512, actionTag = 0x0f3d2366, resultState = 0xbd73cd72, estimate = 18064, usedSeq = 4550
+
+	systemTag = 0x2c640f37, actionTag = 0x0f3d2366, resultState = 0xd856d6f8, estimate = 14703, usedSeq = 4568
+
+	systemTag = 0x00f829be, actionTag = 0x0f3d2366, resultState = 0x75083689, estimate = 8846, usedSeq = 4573
+
+	systemTag = 0x7f536a95, actionTag = 0x786b90cf, resultState = 0x2c640f37, estimate = 6880, usedSeq = 4567
+
+	systemTag = 0xf27e4bee, actionTag = 0xd6343288, resultState = 0x086a50ca, estimate = 18516, usedSeq = 4570
+
+	systemTag = 0xf27e4bee, actionTag = 0xbbe70d7b, resultState = 0x6c8a3fb4, estimate = 18465, usedSeq = 4571
+
+	systemTag = 0x0d79d0e3, actionTag = 0x786b90cf, resultState = 0xa6b5c4d8, estimate = 3802, usedSeq = 4828
+
+	systemTag = 0x0c013bdb, actionTag = 0xc4a0a629, resultState = 0x37281023, estimate = 6994, usedSeq = 4621
+
+	systemTag = 0x77a70b07, actionTag = 0x1bbd056d, resultState = 0xda29dce7, estimate = 20280, usedSeq = 4626
+
+	systemTag = 0xbe22a92c, actionTag = 0xadd24e98, resultState = 0x65b8ddc5, estimate = 11156, usedSeq = 4756
+
+	systemTag = 0x1fd1dea9, actionTag = 0x9f6e4fe6, resultState = 0x0d79d0e3, estimate = 7652, usedSeq = 4823
+
+	systemTag = 0xf27e4bee, actionTag = 0x786b90cf, resultState = 0x8626a40e, estimate = 6301, usedSeq = 4576
+
+	systemTag = 0x77a70b07, actionTag = 0xf32f383b, resultState = 0x6fefd947, estimate = 11387, usedSeq = 4631
+
+	systemTag = 0x723d71d7, actionTag = 0x4704ef7e, resultState = 0xc32f9c79, estimate = 16969, usedSeq = 4360
+
+	systemTag = 0x27473624, actionTag = 0x9f6e4fe6, resultState = 0x35ef386e, estimate = 7623, usedSeq = 4747
+
+	systemTag = 0xe7738042, actionTag = 0x30dff4c4, resultState = 0x1ecf4010, estimate = 10420, usedSeq = 4364
+
+	systemTag = 0x1fd1dea9, actionTag = 0x36f43160, resultState = 0x0d79d0e3, estimate = 11207, usedSeq = 4698
+
+	systemTag = 0x1fd1dea9, actionTag = 0xa982df75, resultState = 0x3c23b135, estimate = 12344, usedSeq = 4647
+
+	systemTag = 0x1fd1dea9, actionTag = 0xe060d2e7, resultState = 0xed42d2f5, estimate = 11155, usedSeq = 4654
+
+	systemTag = 0x3af0939a, actionTag = 0x88425ed7, resultState = 0xaf4d24f7, estimate = 9361, usedSeq = 4755
+
+	systemTag = 0xf27e4bee, actionTag = 0xabb639df, resultState = 0xf3d1c29c, estimate = 18646, usedSeq = 4569
+
+	systemTag = 0xbe22a92c, actionTag = 0xff071457, resultState = 0x65b8ddc5, estimate = 9243, usedSeq = 4757
+
+	systemTag = 0xf3b52b8e, actionTag = 0x786b90cf, resultState = 0x888d91e2, estimate = 6345, usedSeq = 4860
+
+	systemTag = 0xa62e2432, actionTag = 0x7b43f556, resultState = 0xf22b1313, estimate = 18513, usedSeq = 4763
+
+	systemTag = 0x0148cdef, actionTag = 0x786b90cf, resultState = 0xccacbbd1, estimate = 6531, usedSeq = 4762
+
+	systemTag = 0x723d71d7, actionTag = 0x1f8632ee, resultState = 0xab0ed8bd, estimate = 12176, usedSeq = 4348
+
+	systemTag = 0xe7738042, actionTag = 0xab6dff6e, resultState = 0xa2d36176, estimate = 9393, usedSeq = 4456
+
+	systemTag = 0xe1ad60be, actionTag = 0x5e6ccde6, resultState = 0x5b1b98e2, estimate = 10422, usedSeq = 4487
+
+	systemTag = 0xa71397a1, actionTag = 0xf37866db, resultState = 0xf3b52b8e, estimate = 9357, usedSeq = 4782
+
+	systemTag = 0xe7738042, actionTag = 0x1f8632ee, resultState = 0xab0ed8bd, estimate = 9344, usedSeq = 4371
+
+	systemTag = 0xa33d2e2d, actionTag = 0x786b90cf, resultState = 0x95cfc0fb, estimate = 6755, usedSeq = 4565
+
+	systemTag = 0x6b853c3f, actionTag = 0x0f3d2366, resultState = 0x53fec22f, estimate = 13695, usedSeq = 4560
+
+	systemTag = 0x5543ddcf, actionTag = 0x0f902a1d, resultState = 0xefe7165b, estimate = 9108, usedSeq = 4562
+
+	systemTag = 0xc32f9c79, actionTag = 0x0f3d2366, resultState = 0x02427e88, estimate = 13951, usedSeq = 4457
+
+	systemTag = 0xe7738042, actionTag = 0x4704ef7e, resultState = 0xc32f9c79, estimate = 12727, usedSeq = 4359
+
+	systemTag = 0x970c8f1d, actionTag = 0x786b90cf, resultState = 0x85c00aa2, estimate = 9016, usedSeq = 4460
+
+	systemTag = 0x56616dec, actionTag = 0x0f3d2366, resultState = 0x02427e88, estimate = 18601, usedSeq = 4458
+
+	systemTag = 0x4981f6d6, actionTag = 0x5e6ccde6, resultState = 0x4eb5fad1, estimate = 12698, usedSeq = 4470
+
+	systemTag = 0x74e3912b, actionTag = 0x5e6ccde6, resultState = 0x5b1b98e2, estimate = 13893, usedSeq = 4465
+
+	systemTag = 0xfecbcdaa, actionTag = 0x0f3d2366, resultState = 0x53fec22f, estimate = 18260, usedSeq = 4469
+
+	systemTag = 0x02427e88, actionTag = 0x786b90cf, resultState = 0x85c00aa2, estimate = 6762, usedSeq = 4463
+
+	systemTag = 0x5b1b98e2, actionTag = 0x786b90cf, resultState = 0x6b853c3f, estimate = 6542, usedSeq = 4559
+
+	systemTag = 0xce556977, actionTag = 0x786b90cf, resultState = 0x6b853c3f, estimate = 8722, usedSeq = 4467
+
+	systemTag = 0x6c8a3fb4, actionTag = 0x786b90cf, resultState = 0x95b6d82b, estimate = 6734, usedSeq = 4572
+
+	systemTag = 0xdccf0743, actionTag = 0x5e6ccde6, resultState = 0x4eb5fad1, estimate = 16930, usedSeq = 4471
+
+	systemTag = 0xe1ad60be, actionTag = 0x042a9f03, resultState = 0x88439080, estimate = 9345, usedSeq = 4538
+
+	systemTag = 0x74e3912b, actionTag = 0x042a9f03, resultState = 0x88439080, estimate = 12173, usedSeq = 4489
+
+	systemTag = 0x71da81cb, actionTag = 0xc4a0a629, resultState = 0xf6d3d71d, estimate = 10385, usedSeq = 4616
+
+	systemTag = 0xc00d2c5a, actionTag = 0x0f902a1d, resultState = 0xefe7165b, estimate = 6831, usedSeq = 4561
+
+	systemTag = 0x77a70b07, actionTag = 0x5c8fe729, resultState = 0x0a8fedcd, estimate = 11391, usedSeq = 4641
+
+	systemTag = 0x88439080, actionTag = 0x786b90cf, resultState = 0x5287170c, estimate = 6406, usedSeq = 4555
+
+	systemTag = 0x914ce03c, actionTag = 0x0f3d2366, resultState = 0xa33d2e2d, estimate = 14001, usedSeq = 4563
+
+	systemTag = 0x71da81cb, actionTag = 0xc3307f49, resultState = 0x32f47cc6, estimate = 11492, usedSeq = 4620
+
+	systemTag = 0x1d0d6115, actionTag = 0x786b90cf, resultState = 0x5287170c, estimate = 8541, usedSeq = 4509
+
+	systemTag = 0x27473624, actionTag = 0x36f43160, resultState = 0x35ef386e, estimate = 11205, usedSeq = 4754
+
+	systemTag = 0x5287170c, actionTag = 0x0f3d2366, resultState = 0xe62f458c, estimate = 13498, usedSeq = 4556
+
+	systemTag = 0xf27e4bee, actionTag = 0x8bd7e3d8, resultState = 0xbcf2fde4, estimate = 9363, usedSeq = 4584
+
+	systemTag = 0xc7c9e699, actionTag = 0x0f3d2366, resultState = 0xe62f458c, estimate = 17997, usedSeq = 4543
+
+	systemTag = 0x71da81cb, actionTag = 0xd53d8817, resultState = 0x32f47cc6, estimate = 11739, usedSeq = 4610
+

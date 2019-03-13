@@ -1,0 +1,79 @@
+npa_resource (name: "/clk/qdss") (handle: 0x9ab70) (units: STATE) (resource max: 3) (active max: 3) (active state: 1) (active headroom: -2) (request state: 1)
+        npa_client (name: WCSS) (handle: 0x9e1d8) (resource: 0x9ab70) (type: NPA_CLIENT_LIMIT_MAX) (request: 4294967295)
+        npa_client (name: WCSS) (handle: 0x9e198) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d6b0) (resource: 0x9ab70) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d670) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9ca88) (resource: 0x9ab70) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9ca48) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x9c670) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 1)
+        npa_client (name: TZ) (handle: 0x985b0) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 1)
+        npa_client (name: qdssrpm) (handle: 0x98738) (resource: 0x9ab70) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x9ab70)
+npa_resource (name: "/clk/bimc_freq_plan") (handle: 0x9ab20) (units: STATE) (resource max: 4294967295) (active max: 4294967295) (active state: 0) (active headroom: 1) (request state: 0)
+        npa_client (name: MPSS) (handle: 0x9d910) (resource: 0x9ab20) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d8d0) (resource: 0x9ab20) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x9ab20)
+npa_resource (name: "/clk/ipa") (handle: 0x98268) (units: KHz) (resource max: 154290) (active max: 154290) (active state: 0) (active headroom: -154290) (request state: 0)
+        npa_client (name: MPSS) (handle: 0x9d878) (resource: 0x98268) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d838) (resource: 0x98268) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x9c618) (resource: 0x98268) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x98268)
+npa_resource (name: "/clk/bimc") (handle: 0x984f0) (units: KHz) (resource max: 931200) (active max: 931200) (active state: 19200) (active headroom: -931200) (request state: 0)
+        npa_client (name: WCSS) (handle: 0x9e140) (resource: 0x984f0) (type: NPA_CLIENT_LIMIT_MAX) (request: 4294967295)
+        npa_client (name: WCSS) (handle: 0x9e100) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d9a8) (resource: 0x984f0) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d968) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cc50) (resource: 0x984f0) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cc10) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x98578) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ICB Latency Driver) (handle: 0x98620) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ICB Latency Driver) (handle: 0x98658) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ICB Driver) (handle: 0x98700) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ‚ ‚0‚@‚P‚`‚p‚Ä‚ê‚†‚∞‚¿‚–‚‡‚‚) (handle: 0x987e0) (resource: 0x984f0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x984f0)
+npa_resource (name: "/clk/pcnoc") (handle: 0x982b0) (units: KHz) (resource max: 133330) (active max: 133330) (active state: 50000) (active headroom: -83330) (request state: 50000)
+        npa_client (name: WCSS) (handle: 0x9e0a8) (resource: 0x982b0) (type: NPA_CLIENT_LIMIT_MAX) (request: 4294967295)
+        npa_client (name: WCSS) (handle: 0x9e068) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d748) (resource: 0x982b0) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d708) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cb20) (resource: 0x982b0) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cae0) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x98540) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ICB Driver) (handle: 0x986c8) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: rpm internal) (handle: 0x98770) (resource: 0x982b0) (type: NPA_CLIENT_REQUIRED) (request: 50000)
+        end npa_resource (handle: 0x982b0)
+npa_resource (name: "/clk/sysmmnoc") (handle: 0x982f8) (units: KHz) (resource max: 400000) (active max: 400000) (active state: 0) (active headroom: -400000) (request state: 0)
+        npa_client (name: WCSS) (handle: 0x9e010) (resource: 0x982f8) (type: NPA_CLIENT_LIMIT_MAX) (request: 4294967295)
+        npa_client (name: WCSS) (handle: 0x9dfd0) (resource: 0x982f8) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x9c5c0) (resource: 0x982f8) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: /node/clk/bimc) (handle: 0x98818) (resource: 0x982f8) (type: NPA_CLIENT_CUSTOM1) (request: 19200)
+        end npa_resource (handle: 0x982f8)
+npa_resource (name: "/clk/snoc") (handle: 0x98340) (units: KHz) (resource max: 266670) (active max: 266670) (active state: 19200) (active headroom: -266670) (request state: 0)
+        npa_client (name: WCSS) (handle: 0x9df78) (resource: 0x98340) (type: NPA_CLIENT_LIMIT_MAX) (request: 4294967295)
+        npa_client (name: WCSS) (handle: 0x9df38) (resource: 0x98340) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d7e0) (resource: 0x98340) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d7a0) (resource: 0x98340) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cbb8) (resource: 0x98340) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cb78) (resource: 0x98340) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x9c568) (resource: 0x98340) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: ICB Driver) (handle: 0x98690) (resource: 0x98340) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x98340)
+npa_resource (name: "/clk/cpu") (handle: 0x98388) (units: KHz) (resource max: 432000) (active max: 432000) (active state: 228570) (active headroom: -203430) (request state: 228570)
+        npa_client (name: rpm cpu) (handle: 0x987a8) (resource: 0x98388) (type: NPA_CLIENT_SUPPRESSIBLE) (request: 228570)
+        end npa_resource (handle: 0x98388)
+npa_resource (name: "/clk/dcvs.ena") (handle: 0x983d0) (units: Enable) (resource max: 1) (active max: 1) (active state: 1) (active headroom: 0) (request state: 1)
+        npa_client (name: APSS) (handle: 0x9c740) (resource: 0x983d0) (type: NPA_CLIENT_REQUIRED) (request: 1)
+        end npa_resource (handle: 0x983d0)
+npa_resource (name: "/xo/cxo") (handle: 0x98418) (units: Enable) (resource max: 1) (active max: 1) (active state: 0) (active headroom: -1) (request state: 0)
+        npa_client (name: WCSS) (handle: 0x9e270) (resource: 0x98418) (type: NPA_CLIENT_LIMIT_MAX) (request: 1)
+        npa_client (name: WCSS) (handle: 0x9e230) (resource: 0x98418) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d530) (resource: 0x98418) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: MPSS) (handle: 0x9d4f0) (resource: 0x98418) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cce8) (resource: 0x98418) (type: NPA_CLIENT_LIMIT_MAX) (request: 0)
+        npa_client (name: LPASS) (handle: 0x9cca8) (resource: 0x98418) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: APSS) (handle: 0x985e8) (resource: 0x98418) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        npa_client (name: @„P„`„p„Ä„ê„†„∞„¿„–„‡„„) (handle: 0x98850) (resource: 0x98418) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x98418)
+npa_resource (name: "/pmic/client/lpddr") (handle: 0x984a8) (units: ModeID) (resource max: 3) (active max: 3) (active state: 0) (active headroom: -3) (request state: 0)
+        npa_client (name: lpddr) (handle: 0x98888) (resource: 0x984a8) (type: NPA_CLIENT_REQUIRED) (request: 0)
+        end npa_resource (handle: 0x984a8)

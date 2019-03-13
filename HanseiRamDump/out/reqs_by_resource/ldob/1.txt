@@ -1,0 +1,28 @@
+
+Status -> 
+	{
+		sw_en : 0,
+		ldo_sw_mode : 15,
+		pc_en : 0,
+		pc_mode : 0,
+		resource_id : 1,
+		device_index : 1,
+		is_en_transition : 0,
+		byp_allowed : 0,
+		reserve1 : 0,
+		input_uvol : 0,
+		ip : 0,
+		noise_hr : 0,
+		output_uvol : 1800000,
+	}
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[0, 0]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-

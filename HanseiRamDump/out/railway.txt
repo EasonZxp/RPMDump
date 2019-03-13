@@ -1,0 +1,149 @@
+
+
+ ~~ Total RAIL: 2 ~~
+
+
+ ~~ RAIL vddmx ~~
+	CURRENT ACTIVE:
+		mode:                 RAILWAY_SVS_SOC
+		level:                RAIL_VOLTAGE_LEVEL_SVS
+		microvolts:           848000
+		off_corner:           value not present
+	UNCONSTRAINED TARGET:
+		mode:                 RAILWAY_SVS_LOW
+		level:                RAIL_VOLTAGE_LEVEL_SVS_LOW
+		microvolts:           848000
+		off_corner:           value not present
+	CONSTRAINED TARGET:
+		mode:                 RAILWAY_SVS_SOC
+		level:                RAIL_VOLTAGE_LEVEL_SVS
+		microvolts:           848000
+		off_corner:           value not present
+	VOTER LIST:
+		voltage_corner:          RAILWAY_NO_REQUEST
+		voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+		active_floor:            RAILWAY_NO_REQUEST
+		explicite_voltage_in_uv: 0
+		suppressible:            False
+		id:                      1
+		rail:                    0
+		sw_enable:               False
+		-------------
+			voltage_corner:          RAILWAY_RETENTION
+			voltage_Level:           RAIL_VOLTAGE_LEVEL_RETENTION
+			active_floor:            RAILWAY_NO_REQUEST
+			explicite_voltage_in_uv: 0
+			suppressible:            False
+			id:                      0
+			rail:                    0
+			sw_enable:               False
+			-------------
+				voltage_corner:          RAILWAY_RETENTION
+				voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+				active_floor:            RAILWAY_NO_REQUEST
+				explicite_voltage_in_uv: 0
+				suppressible:            False
+				id:                      109
+				rail:                    0
+				sw_enable:               True
+				-------------
+					voltage_corner:          RAILWAY_SVS_LOW
+					voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+					active_floor:            RAILWAY_NO_REQUEST
+					explicite_voltage_in_uv: 0
+					suppressible:            True
+					id:                      102
+					rail:                    0
+					sw_enable:               True
+					-------------
+
+
+ ~~ RAIL vddcx ~~
+	CURRENT ACTIVE:
+		mode:                 RAILWAY_SVS_SOC
+		level:                RAIL_VOLTAGE_LEVEL_SVS
+		microvolts:           640000
+		off_corner:           value not present
+	UNCONSTRAINED TARGET:
+		mode:                 RAILWAY_SVS_SOC
+		level:                RAIL_VOLTAGE_LEVEL_SVS
+		microvolts:           640000
+		off_corner:           value not present
+	CONSTRAINED TARGET:
+		mode:                 RAILWAY_SVS_SOC
+		level:                RAIL_VOLTAGE_LEVEL_SVS
+		microvolts:           640000
+		off_corner:           value not present
+	VOTER LIST:
+		voltage_corner:          RAILWAY_NO_REQUEST
+		voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+		active_floor:            RAILWAY_NO_REQUEST
+		explicite_voltage_in_uv: 0
+		suppressible:            False
+		id:                      2
+		rail:                    1
+		sw_enable:               False
+		-------------
+			voltage_corner:          RAILWAY_NO_REQUEST
+			voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+			active_floor:            RAILWAY_NO_REQUEST
+			explicite_voltage_in_uv: 0
+			suppressible:            False
+			id:                      1
+			rail:                    1
+			sw_enable:               False
+			-------------
+				voltage_corner:          RAILWAY_RETENTION
+				voltage_Level:           RAIL_VOLTAGE_LEVEL_RETENTION
+				active_floor:            RAILWAY_NO_REQUEST
+				explicite_voltage_in_uv: 0
+				suppressible:            False
+				id:                      4
+				rail:                    1
+				sw_enable:               False
+				-------------
+					voltage_corner:          RAILWAY_SVS_SOC
+					voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+					active_floor:            RAILWAY_NO_REQUEST
+					explicite_voltage_in_uv: 0
+					suppressible:            True
+					id:                      100
+					rail:                    1
+					sw_enable:               True
+					-------------
+						voltage_corner:          RAILWAY_RETENTION
+						voltage_Level:           RAIL_VOLTAGE_LEVEL_RETENTION
+						active_floor:            RAILWAY_RETENTION
+						explicite_voltage_in_uv: 0
+						suppressible:            False
+						id:                      0
+						rail:                    1
+						sw_enable:               False
+						-------------
+							voltage_corner:          RAILWAY_SVS_SOC
+							voltage_Level:           RAIL_VOLTAGE_LEVEL_SVS
+							active_floor:            RAILWAY_NO_REQUEST
+							explicite_voltage_in_uv: 0
+							suppressible:            True
+							id:                      106
+							rail:                    1
+							sw_enable:               True
+							-------------
+								voltage_corner:          RAILWAY_RETENTION
+								voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+								active_floor:            RAILWAY_NO_REQUEST
+								explicite_voltage_in_uv: 0
+								suppressible:            False
+								id:                      108
+								rail:                    1
+								sw_enable:               True
+								-------------
+									voltage_corner:          RAILWAY_SVS_LOW
+									voltage_Level:           RAIL_VOLTAGE_LEVEL_OFF
+									active_floor:            RAILWAY_NO_REQUEST
+									explicite_voltage_in_uv: 0
+									suppressible:            True
+									id:                      101
+									rail:                    1
+									sw_enable:               True
+									-------------

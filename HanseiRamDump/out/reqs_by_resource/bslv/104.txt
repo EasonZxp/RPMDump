@@ -1,0 +1,43 @@
+
+Status -> 0
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[1249, 1258]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
+
+*** APPS ***
+	selected request [SLEEP_REQUEST] -> 0
+
+	spare request [ACTIVE_REQUEST] -> 0
+
+
+*** MSS ***
+	selected request [ACTIVE_REQUEST] -> 0
+
+	spare request [NO_REQUEST] -> n/a
+
+
+*** WCSS ***
+	selected request [SLEEP_REQUEST] -> 0
+
+	spare request [ACTIVE_REQUEST] -> 259321152
+
+
+*** TZ ***
+	selected request [NO_REQUEST] -> n/a {not allocated}
+
+	spare request [NO_REQUEST] -> n/a {not allocated}
+
+
+*** LPASS ***
+	selected request [SLEEP_REQUEST] -> 0
+
+	spare request [ACTIVE_REQUEST] -> 20
+

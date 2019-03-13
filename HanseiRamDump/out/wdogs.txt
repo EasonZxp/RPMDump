@@ -1,0 +1,23 @@
+
+ ~~RPM Watchdog Info~~
+
+	 Stats:
+		 Entry 0 [Last event]
+				-> dog event: DOG_KICK
+				-> dog event source: <dwarf.Pointer object at 0x000000001822DFD0>
+				-> timestamp: 0x10ac4d2d7
+		 Entry 1
+				-> dog event: DOG_KICK
+				-> dog event source: <dwarf.Pointer object at 0x000000001822DD30>
+				-> timestamp: 0x10ac4a1b6
+		 Entry 2
+				-> dog event: DOG_KICK
+				-> dog event source: <dwarf.Pointer object at 0x000000001822DBE0>
+				-> timestamp: 0x10ac4a82a
+		 Entry 3
+				-> dog event: DOG_KICK
+				-> dog event source: <dwarf.Pointer object at 0x000000001822DA58>
+				-> timestamp: 0x10ac4ae4c
+
+ ~~PMIC Watchdog Info~~
+		Failed to find pmic_dog_stats, RPM build likely does not have this feature.

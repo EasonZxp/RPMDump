@@ -1,0 +1,13 @@
+
+Status -> 00000000000000000000000000000000
+
+cpu_kHz ->
+	[400000, 228570]
+
+estimates ->
+	[0, 0]
+
+settling estimate ->
+	0
+
+-=| External Requests (from other processors) |=-
